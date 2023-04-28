@@ -1,9 +1,10 @@
+import { Container } from "./components/styles/Container.styled";
 
 function App() {
   return (
-    <div className="App">
-      Hello App
-    </div>
+    <Container>
+      <h1>My first content styled with styled-components</h1>
+    </Container>
   );
 }
 
