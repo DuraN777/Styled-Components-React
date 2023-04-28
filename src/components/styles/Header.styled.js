@@ -3,11 +3,11 @@ import styled from "styled-components";
 
 // var StyledName = styled.tag 
 export const StyledHeader = styled.header`
-  background-color: ${ (props) => props.bg}; //passing props for style.
+  background-color: ${ ({theme}) => theme.colors.header}; //passing props
   padding: 40px;
 
   /* Like in SASS we can nest styles */
-  h1 {
+  /* h1 {
     color: #fff;
-  }
+  } */
 `
