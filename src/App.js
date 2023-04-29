@@ -7,7 +7,7 @@ import Header from "./components/Header";
 const theme = {
   colors: {
     header: "#ebfbff",
-    body: "fff",
+    body: "#fff",
   }
 }
 
