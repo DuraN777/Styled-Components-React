@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Flex = styled.div`
   display: flex;
-  gap: 30px;
+  align-items: center;
 
   & > div,
   & > ul {
