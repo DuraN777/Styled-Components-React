@@ -6,11 +6,6 @@ import styled from "styled-components";
 export const StyledHeader = styled.header`
   background-color: ${({ theme }) => theme.colors.header}; //passing props
   padding: 40px;
-
-  /* Like in SASS we can nest styles */
-  /* h1 {
-    color: #fff;
-  } */
 `
 
 export const Nav = styled.nav`
@@ -18,8 +13,23 @@ export const Nav = styled.nav`
   justify-content: space-between;
   align-items: center;
   margin-bottom: 40px;
+
+  @media(max-width: ${({theme}) => theme.mobile}) {
+    flex-direction: column;
+  }
 `
 
 export const Logo = styled.img`
-  
+  @media(max-width: ${({theme}) => theme.mobile}) {
+    margin-bottom: 40px;
+  }
+`
+
+export const Image = styled.img`
+  max-width: 40%;
+  object-fit: contain;
+
+  @media(max-width: ${({theme}) => theme.mobile}) {
+    max-width: 80%;
+  }
 `
