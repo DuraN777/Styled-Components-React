@@ -1,6 +1,11 @@
 # React landing page made with practicing styled components in mind
 Landing page design taken from [Frontendmentor](https://www.frontendmentor.io/challenges/huddle-landing-page-with-curved-sections-5ca5ecd01e82137ec91a50f2).
 
+## Used 
+- [Styled Coponents](https://styled-components.com/docs/basics)
+- [Theme Provider](https://styled-components.com/docs/advanced#theming)
+- [React Icons](https://react-icons.github.io/react-icons/)
+
 
 # About React and Create React App
 
