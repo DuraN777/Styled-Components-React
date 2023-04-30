@@ -4,7 +4,7 @@ import styled from "styled-components";
 
 // var StyledName = styled.tag 
 export const StyledHeader = styled.header`
-  background-color: ${ ({theme}) => theme.colors.header}; //passing props
+  background-color: ${({ theme }) => theme.colors.header}; //passing props
   padding: 40px;
 
   /* Like in SASS we can nest styles */
@@ -14,9 +14,12 @@ export const StyledHeader = styled.header`
 `
 
 export const Nav = styled.nav`
-  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
 `
 
 export const Logo = styled.img`
-  max-width: 30px;
+  
 `
