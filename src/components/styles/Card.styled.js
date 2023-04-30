@@ -9,6 +9,7 @@ export const StyledCard = styled.div`
   box-shadow: 0 0 10px rgba(0,0,0, 0.15);
   border-radius: 20px;
   background-color: #fff;
+  flex-direction: ${ ({isEven}) => isEven || "row"};   // on even cards reverse flex
 
   & .div {
     flex: 1;
