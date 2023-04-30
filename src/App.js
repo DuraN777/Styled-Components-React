@@ -8,7 +8,8 @@ const theme = {
   colors: {
     header: "#ebfbff",
     body: "#fff",
-  }
+  },
+  mobile: "768px"
 }
 
 function App() {
