@@ -28,6 +28,7 @@ export const Logo = styled.img`
 export const Image = styled.img`
   max-width: 40%;
   object-fit: contain;
+  margin-left: 40px;
 
   @media(max-width: ${({theme}) => theme.mobile}) {
     max-width: 80%;
