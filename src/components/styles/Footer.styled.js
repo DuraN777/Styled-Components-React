@@ -9,9 +9,13 @@ export const StyledFooter = styled.footer`
     list-style: none;
   }
 
-  ul li{
+  ul li {
     margin-bottom: 20px;
-    
+  }
+
+  ul li a {
+    text-decoration: none;
+    color: #fff;
   }
 
   p {

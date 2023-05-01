@@ -18,15 +18,15 @@ const Footer = () => {
             <li>+1-543-123-4567</li>
             <li>example@huddle.com</li>
           </ul>
-          <ul className="footer__ul">
-            <li>About Us</li>
-            <li>What We Do</li>
-            <li>FAQ</li>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">What We Do</a></li>
+            <li><a href="#">FAQ</a></li>
           </ul>
-          <ul className="footer__ul">
-            <li>Career</li>
-            <li>Blog</li>
-            <li>Contact Us</li>
+          <ul>
+            <li><a href="#">Career</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact Us</a></li>
           </ul>
 
           <SocialIcons />
