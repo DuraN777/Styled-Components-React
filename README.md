@@ -1,7 +1,7 @@
 # React landing page made with practicing styled components in mind
 Landing page design taken from [Frontendmentor](https://www.frontendmentor.io/challenges/huddle-landing-page-with-curved-sections-5ca5ecd01e82137ec91a50f2).
 
-The live page can be viewed [Here](https://starlit-moxie-1a9d29.netlify.app/);
+The live page can be viewed [Here](https://huddle-react-styld-comps-practice.netlify.app/);
 
 ## Used 
 - [Styled Coponents](https://styled-components.com/docs/basics)
